@@ -34,7 +34,7 @@ struct config: View
                         {
                             Image(systemName: "person.fill")
                                 .font(.system(size: 30))
-                            Text("이름")
+                            Text("보호자2")
                             Spacer()
                             Image(systemName: "pencil.circle")
                             
@@ -59,7 +59,7 @@ struct config: View
                         {
                             Image(systemName: "person.fill")
                                 .font(.system(size: 30))
-                            Text("이름")
+                            Text("보호자2")
                             Spacer()
                             Image(systemName: "pencil.circle")
                             
