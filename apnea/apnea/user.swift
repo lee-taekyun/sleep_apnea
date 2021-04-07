@@ -29,6 +29,9 @@ struct user: View {
                     {
                         Divider().opacity(0)
                         Rectangle().frame(height: 0)
+                        Text("이름:")
+                        .fontWeight(.bold)
+                        .padding(.bottom,10)
                         Text("날짜:")
                         .fontWeight(.bold)
                         .padding(.bottom,10)
