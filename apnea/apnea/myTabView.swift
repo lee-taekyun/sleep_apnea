@@ -23,10 +23,10 @@ struct myTabView: View {
                     Image(systemName: "gear")
                     Text("설정")
                 }
-            Text("사용자 추가").tabItem
+            Text("보호자 추가").tabItem
             {
                     Image(systemName: "person.badge.plus")
-                    Text("사용자 추가")
+                    Text("보호자 추가")
             }
             
         }
