@@ -28,7 +28,7 @@ struct user: View {
                 {
                     ScrollView(.vertical)
                         {
-                            ForEach(0 ..< 10) { item in
+                            ForEach(0 ..< 5) { item in
 
                                     VStack(alignment: .leading, spacing: 0)
                                     {
