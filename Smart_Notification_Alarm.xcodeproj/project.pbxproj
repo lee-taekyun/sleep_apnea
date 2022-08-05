@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D114956A2B4C5A683431DEBD /* Pods_Smart_Notification_Alarm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E4B22082AFB5029E7EE685A /* Pods_Smart_Notification_Alarm.framework */; };
+		D12DCB8A251F590500BFAEF7 /* BLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12DCB89251F590500BFAEF7 /* BLEManager.swift */; };
+		D12DEF63253148F5003F42FF /* BluetoothView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12DEF62253148F5003F42FF /* BluetoothView.swift */; };
+		D12EE2192536D39D0063755F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D12EE2182536D39D0063755F /* GoogleService-Info.plist */; };
+		D12EE23925398D370063755F /* Push_Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12EE23825398D370063755F /* Push_Notification.swift */; };
+		D12EFB7325273AE0002B56A4 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = D12EFB7225273AE0002B56A4 /* SwiftUICharts */; };
+		D131D8132530429600753325 /* RecvInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D131D8122530429600753325 /* RecvInfo.swift */; };
+		D13DA8742516EDE900BD07BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13DA8732516EDE900BD07BA /* AppDelegate.swift */; };
+		D13DA8762516EDE900BD07BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13DA8752516EDE900BD07BA /* SceneDelegate.swift */; };
+		D13DA8782516EDE900BD07BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13DA8772516EDE900BD07BA /* ContentView.swift */; };
+		D13DA87A2516EDEB00BD07BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D13DA8792516EDEB00BD07BA /* Assets.xcassets */; };
+		D13DA87D2516EDEB00BD07BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D13DA87C2516EDEB00BD07BA /* Preview Assets.xcassets */; };
+		D13DA8802516EDEB00BD07BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D13DA87E2516EDEB00BD07BA /* LaunchScreen.storyboard */; };
+		D13DA8882516EE6700BD07BA /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13DA8872516EE6700BD07BA /* UserView.swift */; };
+		D13DA88A2516F41700BD07BA /* User_DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13DA8892516F41700BD07BA /* User_DetailView.swift */; };
+		D13DA88C2516FBCA00BD07BA /* User_SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13DA88B2516FBCA00BD07BA /* User_SettingView.swift */; };
+		D13DA88E2516FFC400BD07BA /* User_SettingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13DA88D2516FFC400BD07BA /* User_SettingDetailView.swift */; };
+		D1B751AC2550DFC5009AD5DA /* SelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B751AB2550DFC5009AD5DA /* SelectView.swift */; };
+		D1B751AF2550EB1F009AD5DA /* GuardInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B751AE2550EB1F009AD5DA /* GuardInfo.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		29D65D16C86015F996616691 /* Pods-Smart_Notification_Alarm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smart_Notification_Alarm.release.xcconfig"; path = "Target Support Files/Pods-Smart_Notification_Alarm/Pods-Smart_Notification_Alarm.release.xcconfig"; sourceTree = "<group>"; };
+		9E4B22082AFB5029E7EE685A /* Pods_Smart_Notification_Alarm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smart_Notification_Alarm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C97376E78B625E060B996B7A /* Pods-Smart_Notification_Alarm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smart_Notification_Alarm.debug.xcconfig"; path = "Target Support Files/Pods-Smart_Notification_Alarm/Pods-Smart_Notification_Alarm.debug.xcconfig"; sourceTree = "<group>"; };
+		D12DCB89251F590500BFAEF7 /* BLEManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEManager.swift; sourceTree = "<group>"; };
+		D12DEF62253148F5003F42FF /* BluetoothView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothView.swift; sourceTree = "<group>"; };
+		D12EE2122536D14C0063755F /* Smart_Notification_Alarm.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Smart_Notification_Alarm.entitlements; sourceTree = "<group>"; };
+		D12EE2182536D39D0063755F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D12EE23825398D370063755F /* Push_Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Push_Notification.swift; sourceTree = "<group>"; };
+		D131D8122530429600753325 /* RecvInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecvInfo.swift; sourceTree = "<group>"; };
+		D13DA8702516EDE900BD07BA /* Smart_Notification_Alarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smart_Notification_Alarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D13DA8732516EDE900BD07BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D13DA8752516EDE900BD07BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D13DA8772516EDE900BD07BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D13DA8792516EDEB00BD07BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D13DA87C2516EDEB00BD07BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D13DA87F2516EDEB00BD07BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D13DA8812516EDEB00BD07BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D13DA8872516EE6700BD07BA /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = SOURCE_ROOT; };
+		D13DA8892516F41700BD07BA /* User_DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User_DetailView.swift; sourceTree = "<group>"; };
+		D13DA88B2516FBCA00BD07BA /* User_SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User_SettingView.swift; sourceTree = "<group>"; };
+		D13DA88D2516FFC400BD07BA /* User_SettingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User_SettingDetailView.swift; sourceTree = "<group>"; };
+		D1B751AB2550DFC5009AD5DA /* SelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectView.swift; sourceTree = "<group>"; };
+		D1B751AE2550EB1F009AD5DA /* GuardInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuardInfo.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D13DA86D2516EDE900BD07BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D12EFB7325273AE0002B56A4 /* SwiftUICharts in Frameworks */,
+				D114956A2B4C5A683431DEBD /* Pods_Smart_Notification_Alarm.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19D405455E925C58F14682EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C97376E78B625E060B996B7A /* Pods-Smart_Notification_Alarm.debug.xcconfig */,
+				29D65D16C86015F996616691 /* Pods-Smart_Notification_Alarm.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B1681148AA8E189A7F221C9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E4B22082AFB5029E7EE685A /* Pods_Smart_Notification_Alarm.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D13DA8672516EDE900BD07BA = {
+			isa = PBXGroup;
+			children = (
+				D13DA8722516EDE900BD07BA /* Smart_Notification_Alarm */,
+				D13DA8712516EDE900BD07BA /* Products */,
+				19D405455E925C58F14682EA /* Pods */,
+				B1681148AA8E189A7F221C9A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D13DA8712516EDE900BD07BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D13DA8702516EDE900BD07BA /* Smart_Notification_Alarm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D13DA8722516EDE900BD07BA /* Smart_Notification_Alarm */ = {
+			isa = PBXGroup;
+			children = (
+				D12EE2122536D14C0063755F /* Smart_Notification_Alarm.entitlements */,
+				D13DA8872516EE6700BD07BA /* UserView.swift */,
+				D13DA8892516F41700BD07BA /* User_DetailView.swift */,
+				D13DA88B2516FBCA00BD07BA /* User_SettingView.swift */,
+				D13DA88D2516FFC400BD07BA /* User_SettingDetailView.swift */,
+				D13DA8732516EDE900BD07BA /* AppDelegate.swift */,
+				D13DA8752516EDE900BD07BA /* SceneDelegate.swift */,
+				D13DA8772516EDE900BD07BA /* ContentView.swift */,
+				D12EE23825398D370063755F /* Push_Notification.swift */,
+				D12DEF62253148F5003F42FF /* BluetoothView.swift */,
+				D131D8122530429600753325 /* RecvInfo.swift */,
+				D1B751AE2550EB1F009AD5DA /* GuardInfo.swift */,
+				D1B751AB2550DFC5009AD5DA /* SelectView.swift */,
+				D12DCB89251F590500BFAEF7 /* BLEManager.swift */,
+				D13DA8792516EDEB00BD07BA /* Assets.xcassets */,
+				D13DA87E2516EDEB00BD07BA /* LaunchScreen.storyboard */,
+				D12EE2182536D39D0063755F /* GoogleService-Info.plist */,
+				D13DA8812516EDEB00BD07BA /* Info.plist */,
+				D13DA87B2516EDEB00BD07BA /* Preview Content */,
+			);
+			path = Smart_Notification_Alarm;
+			sourceTree = "<group>";
+		};
+		D13DA87B2516EDEB00BD07BA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D13DA87C2516EDEB00BD07BA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D13DA86F2516EDE900BD07BA /* Smart_Notification_Alarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D13DA8842516EDEB00BD07BA /* Build configuration list for PBXNativeTarget "Smart_Notification_Alarm" */;
+			buildPhases = (
+				1FAC081A30157E9635BBC5C7 /* [CP] Check Pods Manifest.lock */,
+				D13DA86C2516EDE900BD07BA /* Sources */,
+				D13DA86D2516EDE900BD07BA /* Frameworks */,
+				D13DA86E2516EDE900BD07BA /* Resources */,
+				8C444F84C0977E8D20D7104D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Smart_Notification_Alarm;
+			packageProductDependencies = (
+				D12EFB7225273AE0002B56A4 /* SwiftUICharts */,
+			);
+			productName = Smart_Notification_Alarm;
+			productReference = D13DA8702516EDE900BD07BA /* Smart_Notification_Alarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D13DA8682516EDE900BD07BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1200;
+				ORGANIZATIONNAME = SanwanLee;
+				TargetAttributes = {
+					D13DA86F2516EDE900BD07BA = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = D13DA86B2516EDE900BD07BA /* Build configuration list for PBXProject "Smart_Notification_Alarm" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D13DA8672516EDE900BD07BA;
+			packageReferences = (
+				D12EFB7125273AE0002B56A4 /* XCRemoteSwiftPackageReference "ChartView" */,
+			);
+			productRefGroup = D13DA8712516EDE900BD07BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D13DA86F2516EDE900BD07BA /* Smart_Notification_Alarm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D13DA86E2516EDE900BD07BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D12EE2192536D39D0063755F /* GoogleService-Info.plist in Resources */,
+				D13DA8802516EDEB00BD07BA /* LaunchScreen.storyboard in Resources */,
+				D13DA87D2516EDEB00BD07BA /* Preview Assets.xcassets in Resources */,
+				D13DA87A2516EDEB00BD07BA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1FAC081A30157E9635BBC5C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Smart_Notification_Alarm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C444F84C0977E8D20D7104D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Smart_Notification_Alarm/Pods-Smart_Notification_Alarm-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Smart_Notification_Alarm/Pods-Smart_Notification_Alarm-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Smart_Notification_Alarm/Pods-Smart_Notification_Alarm-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D13DA86C2516EDE900BD07BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D13DA88C2516FBCA00BD07BA /* User_SettingView.swift in Sources */,
+				D12DEF63253148F5003F42FF /* BluetoothView.swift in Sources */,
+				D1B751AC2550DFC5009AD5DA /* SelectView.swift in Sources */,
+				D131D8132530429600753325 /* RecvInfo.swift in Sources */,
+				D1B751AF2550EB1F009AD5DA /* GuardInfo.swift in Sources */,
+				D13DA8742516EDE900BD07BA /* AppDelegate.swift in Sources */,
+				D13DA8762516EDE900BD07BA /* SceneDelegate.swift in Sources */,
+				D13DA88E2516FFC400BD07BA /* User_SettingDetailView.swift in Sources */,
+				D12EE23925398D370063755F /* Push_Notification.swift in Sources */,
+				D13DA88A2516F41700BD07BA /* User_DetailView.swift in Sources */,
+				D13DA8782516EDE900BD07BA /* ContentView.swift in Sources */,
+				D13DA8882516EE6700BD07BA /* UserView.swift in Sources */,
+				D12DCB8A251F590500BFAEF7 /* BLEManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D13DA87E2516EDEB00BD07BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D13DA87F2516EDEB00BD07BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D13DA8822516EDEB00BD07BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D13DA8832516EDEB00BD07BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D13DA8852516EDEB00BD07BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C97376E78B625E060B996B7A /* Pods-Smart_Notification_Alarm.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Smart_Notification_Alarm/Smart_Notification_Alarm.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Smart_Notification_Alarm/Preview Content\"";
+				DEVELOPMENT_TEAM = MKYWGCRMF3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Smart_Notification_Alarm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.knu.YourakLee.Smart-Notification-Alarm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D13DA8862516EDEB00BD07BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29D65D16C86015F996616691 /* Pods-Smart_Notification_Alarm.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Smart_Notification_Alarm/Smart_Notification_Alarm.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Smart_Notification_Alarm/Preview Content\"";
+				DEVELOPMENT_TEAM = MKYWGCRMF3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Smart_Notification_Alarm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.knu.YourakLee.Smart-Notification-Alarm";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D13DA86B2516EDE900BD07BA /* Build configuration list for PBXProject "Smart_Notification_Alarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D13DA8822516EDEB00BD07BA /* Debug */,
+				D13DA8832516EDEB00BD07BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D13DA8842516EDEB00BD07BA /* Build configuration list for PBXNativeTarget "Smart_Notification_Alarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D13DA8852516EDEB00BD07BA /* Debug */,
+				D13DA8862516EDEB00BD07BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D12EFB7125273AE0002B56A4 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D12EFB7225273AE0002B56A4 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D12EFB7125273AE0002B56A4 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D13DA8682516EDE900BD07BA /* Project object */;
+}

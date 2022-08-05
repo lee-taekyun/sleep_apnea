@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>350681376432-mho26frrsrunaesb7cqd0120r1bd39mm.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.350681376432-mho26frrsrunaesb7cqd0120r1bd39mm</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD5JLc5oOyOpIa8e_8BwqC25mZLYzVcDrs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>350681376432</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>edu.knu.YourakLee.Smart-Notification-Alarm</string>
+	<key>PROJECT_ID</key>
+	<string>smart-notification-alarm3</string>
+	<key>STORAGE_BUCKET</key>
+	<string>smart-notification-alarm3.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:350681376432:ios:0cb134fea04f7c3d933d75</string>
+	<key>DATABASE_URL</key>
+	<string>https://smart-notification-alarm3.firebaseio.com</string>
+</dict>
+</plist>
