@@ -55,7 +55,7 @@
 # 3. 프로젝트 수행 결과 
 ## 3.1 User Interface
 * 초기에 Swift를 배우면서 구현하였던 UI이다.
-* 추후에 적용될 기능 구현 등에 따라서 조금씩 변경될 수 있다.
+* (추후에 적용될 기능 구현 등에 따라서 조금씩 변경되었다.)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![noname06](https://user-images.githubusercontent.com/51878026/183600308-e6d812aa-2e47-4c76-b78a-52c105c0839f.png)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
