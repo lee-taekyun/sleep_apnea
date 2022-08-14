@@ -32,12 +32,17 @@
 
 ## 1.2 프로젝트 구성도
 ![K-018](https://user-images.githubusercontent.com/51878026/184543403-1a0195ce-ce92-451c-b07d-fc2afb4da265.png)
-[그림 4] 프로젝트 구성도 
+```
+                             [그림 3] 프로젝트 구성도 
+```
+
 
 # 2. 프로젝트 목표  
 ## 2.1 SwiftUI 익히기  
 ![noname04](https://user-images.githubusercontent.com/51878026/183600277-81b34879-535d-4403-886f-7f3d8445d5fe.png)    
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[그림 4] Swift 강의 영상    
+```
+                              [그림 4] Swift 강의 영상  
+```  
 * 개발 언어는 Swift이고, 우선 강의 사이트에서 Swift 언어를 학습한다.
 * 학습한 뒤 호흡에 대한 데이터를 표현하고, 사용자나 보호자에 대한 정보를 나타내주는 유저 인터페이스를 구성하도록 한다. 
 
