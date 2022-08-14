@@ -54,7 +54,7 @@
 * 이 과정에서는 파이어베이스 클라우드 시스템을 사용하여 보호자에게 푸시알림이 가도록 구현한다.
 # 3. 프로젝트 수행 결과 
 ## 3.0 실행 결과  
-![KakaoTalk_20210607_233745339](https://user-images.githubusercontent.com/51878026/184078202-cfe9a82d-7703-4a8a-9e5c-267bb4a795a2.gif)  
+![KakaoTalk_20210607_232448827](https://user-images.githubusercontent.com/51878026/184528932-9cf7f8a5-363a-47da-adab-e2a061366b54.gif)
 
 ## 3.1 User Interface
 * 초기에 Swift를 배우면서 구현하였던 UI이다.
