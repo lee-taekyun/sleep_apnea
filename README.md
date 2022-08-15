@@ -66,10 +66,13 @@
 * (추후에 적용될 기능 구현 등에 따라서 조금씩 변경되었다.)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![noname06](https://user-images.githubusercontent.com/51878026/183600308-e6d812aa-2e47-4c76-b78a-52c105c0839f.png)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-![noname07](https://user-images.githubusercontent.com/51878026/183600310-cd4c365e-1aeb-496f-a2f2-98c8668ded2f.png)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[그림 6] 블루투스 스캔  
+![noname07](https://user-images.githubusercontent.com/51878026/183600310-cd4c365e-1aeb-496f-a2f2-98c8668ded2f.png)   
+ 
+![K-023](https://user-images.githubusercontent.com/51878026/184560366-feb8febc-7008-4c41-9c44-03504be8648a.png)
 ```
-[그림 6] 블루투스 스캔                         [그림 7] [그림 6]의 구현 코드  
+                              [그림 7] [그림 6]의 구현 코드 중 일부
 ```
 
 
