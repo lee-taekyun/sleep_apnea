@@ -6,6 +6,8 @@
 * 언어 : Swift
 * 개발도구: Xcode
 * 센서 모듈: 아두이노
+* DB: firebase (firestore)
+
 
 # 추진배경
 * IoT 생체신호 감지 응급상황 발생에서 위험상황의 유연한 대처 제품개발
